@@ -19,6 +19,8 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     NSLog(@"this is a first edit");
+    NSLog(@"this is a second edit");
+    
 }
 
 - (void)didReceiveMemoryWarning
