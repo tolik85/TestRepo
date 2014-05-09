@@ -23,6 +23,7 @@
     NSLog(@"this is a third edit (bug branch)");
     NSLog(@"this is a third edit (master branch)");
     NSLog(@"after tag edit");
+    NSLog(@"bug 2 fixed");
 }
 
 - (void)didReceiveMemoryWarning
