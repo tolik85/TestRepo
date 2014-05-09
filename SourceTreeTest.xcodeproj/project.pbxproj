@@ -200,6 +200,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Paradox;
 				TargetAttributes = {
+					2FE044AA191D68C4006DE74E = {
+						DevelopmentTeam = M8QFF2BHJ4;
+					};
 					2FE044CB191D68C4006DE74E = {
 						TestTargetID = 2FE044AA191D68C4006DE74E;
 					};
@@ -377,10 +380,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SourceTreeTest/SourceTreeTest-Prefix.pch";
 				INFOPLIST_FILE = "SourceTreeTest/SourceTreeTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -390,10 +396,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SourceTreeTest/SourceTreeTest-Prefix.pch";
 				INFOPLIST_FILE = "SourceTreeTest/SourceTreeTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
