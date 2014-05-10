@@ -26,6 +26,8 @@
     NSLog(@"this is a third edit (master branch)");
     
     NSLog(@"this is another edit");
+    
+    NSLog(@"another edit");
 }
 
 - (void)didReceiveMemoryWarning
