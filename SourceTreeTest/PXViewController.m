@@ -20,10 +20,12 @@
 	// Do any additional setup after loading the view, typically from a nib.
     NSLog(@"this is a first edit");
     NSLog(@"this is a second edit");
+
     NSLog(@"this is a third edit (bug branch)");
+
     NSLog(@"this is a third edit (master branch)");
-    NSLog(@"after tag edit");
-    NSLog(@"bug 2 fixed");
+    
+    NSLog(@"this is another edit");
 }
 
 - (void)didReceiveMemoryWarning
