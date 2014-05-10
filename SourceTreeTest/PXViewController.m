@@ -28,6 +28,7 @@
     NSLog(@"this is another edit");
     
     NSLog(@"another edit");
+NSLog(@"feature1");
 }
 
 - (void)didReceiveMemoryWarning
